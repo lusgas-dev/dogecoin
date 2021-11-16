@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet(('')))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/lusgas-dev/dogecoin/main/Dogecoinlibrary.txt')))()
 local w = library:CreateWindow("Dogecoin Mining Tycoon")
 local b = w:CreateFolder("AutoFarm")
 local f = w:CreateFolder("AutoBuy")
